@@ -4,6 +4,7 @@ public class Token {
 	private String token;
 	private Integer linha;
 	private Token proximoToken;
+	private int teste;
 	public Token(String token, Integer linha) {
 		// TODO Auto-generated constructor stub
 	}
