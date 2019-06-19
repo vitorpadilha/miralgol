@@ -3,4 +3,33 @@
   <groupId>br.edu.ifam</groupId>
   <artifactId>MiraBol</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<dependency>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-compiler-plugin</artifactId>
+	  <version>3.8.1</version>
+	  <type>maven-plugin</type>
+	</dependency>
+	<dependency>
+	  <groupId>de.jflex</groupId>
+	  <artifactId>jflex-maven-plugin</artifactId>
+	  <version>1.7.0</version>
+	  <type>maven-plugin</type>
+	</dependency>
+	<dependency>
+	  <groupId>java_cup</groupId>
+	  <artifactId>java_cup</artifactId>
+	  <version>0.9e</version>
+	</dependency>
+  	<dependency>
+  		<groupId>de.jflex</groupId>
+  		<artifactId>jflex</artifactId>
+  		<version>1.7.0</version>
+  	</dependency>
+  	
+  </dependencies>
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 </project>
